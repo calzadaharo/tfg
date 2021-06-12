@@ -1,0 +1,85 @@
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GADeployment.scala:3:12: object raphtory is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.RaphtoryGraph[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GADeployment.scala:4:12: object raphtory is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.algorithms.{DegreeBasic}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GASpout.scala:3:12: object raphtory is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.actors.Spout.Spout[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GASpout.scala:7:23: not found: type Spout[0m
+[0m[[0m[31merror[0m] [0m[0mclass GASpout extends Spout[String] {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:4:12: object raphtory is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.model.communication._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:3:12: object raphtory is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.actors.Router.GraphBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:7:34: not found: type GraphBuilder[0m
+[0m[[0m[31merror[0m] [0m[0mclass GAGraphBuilderPost extends GraphBuilder[String]{[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GADeployment.scala:9:12: not found: value RaphtoryGraph[0m
+[0m[[0m[31merror[0m] [0m[0m  val rg = RaphtoryGraph[String](source,builder)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:15:18: not found: value assignID[0m
+[0m[[0m[31merror[0m] [0m[0m    val postID = assignID(post)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:20:24: not found: value assignID[0m
+[0m[[0m[31merror[0m] [0m[0m    val parentPostID = assignID(parentPost)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:29:7: not found: value addVertex[0m
+[0m[[0m[31merror[0m] [0m[0m      addVertex(timeStamp, postID,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:30:9: not found: value Properties[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",post),[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:30:20: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",post),[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:33:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("original","false")),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:34:9: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m        Type("Post"))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:35:7: not found: value addVertex[0m
+[0m[[0m[31merror[0m] [0m[0m      addVertex(timeStamp, parentPostID,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:36:9: not found: value Properties[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:37:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("name",parentPost)),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:41:9: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m        Type("Post"))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:42:7: not found: value addEdge[0m
+[0m[[0m[31merror[0m] [0m[0m      addEdge(timeStamp, postID, parentPostID, Type("Post answer"))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:42:48: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m      addEdge(timeStamp, postID, parentPostID, Type("Post answer"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:48:7: not found: value addVertex[0m
+[0m[[0m[31merror[0m] [0m[0m      addVertex(timeStamp, postID,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:49:9: not found: value Properties[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name", post),[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:49:20: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name", post),[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:50:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("author", postAuthor),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:51:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("original", "true")),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GAGraphBuilderPost.scala:52:9: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m        Type("Post"))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/tfg/generalAnalysis/GASpout.scala:18:7: not found: value dataSourceComplete[0m
+[0m[[0m[31merror[0m] [0m[0m      dataSourceComplete()[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m28 errors found[0m

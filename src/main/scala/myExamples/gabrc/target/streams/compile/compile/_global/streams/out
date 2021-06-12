@@ -1,0 +1,163 @@
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:5:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.ActorContext[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:6:21: object core is not a member of package com.raphtory[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.model.analysis.GraphLenses.GraphLens[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:10:22: object runtime is not a member of package reflect[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.reflect.runtime.currentMirror[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:11:14: object tools is not a member of package scala[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.tools.reflect.ToolBox[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:25:25: not found: value currentMirror[0m
+[0m[[0m[31merror[0m] [0m[0m  private val toolbox = currentMirror.mkToolBox()[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:32:25: not found: type ActorContext[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit var context: ActorContext      = null[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:34:22: not found: type GraphLens[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit var view: GraphLens            = null[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:38:31: not found: type ActorContext[0m
+[0m[[0m[31merror[0m] [0m[0m  final def sysSetup(context: ActorContext, managerCount: ManagerCount, proxy: GraphLens, ID: Int) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/Analyser.scala:38:80: not found: type GraphLens[0m
+[0m[[0m[31merror[0m] [0m[0m  final def sysSetup(context: ActorContext, managerCount: ManagerCount, proxy: GraphLens, ID: Int) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCDeployment.scala:3:8: object RaphtoryGraph is not a member of package com.raphtory[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.RaphtoryGraph[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCDeployment.scala:4:21: object algorithms is not a member of package com.raphtory[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.algorithms.{ConnectedComponents}[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCSpout.scala:3:21: object core is not a member of package com.raphtory[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.actors.Spout.Spout[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCSpout.scala:7:26: not found: type Spout[0m
+[0m[[0m[31merror[0m] [0m[0mclass GABRCSpout extends Spout[String] {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:4:21: object core is not a member of package com.raphtory[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.model.communication._[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:3:21: object core is not a member of package com.raphtory[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.actors.Router.GraphBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:7:37: not found: type GraphBuilder[0m
+[0m[[0m[31merror[0m] [0m[0mclass GABRCGraphBuilderPost extends GraphBuilder[String]{[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCDeployment.scala:10:12: not found: value RaphtoryGraph[0m
+[0m[[0m[31merror[0m] [0m[0m  val rg = RaphtoryGraph[String](source,builder)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:15:18: not found: value assignID[0m
+[0m[[0m[31merror[0m] [0m[0m    val postID = assignID(post)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:20:24: not found: value assignID[0m
+[0m[[0m[31merror[0m] [0m[0m    val parentPostID = assignID(parentPost)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:39:7: not found: value addVertex[0m
+[0m[[0m[31merror[0m] [0m[0m      addVertex(timeStamp, postID,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:40:9: not found: value Properties[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",post),[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:40:20: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",post),[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:41:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("author",postAuthor),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:42:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("original","false")),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:43:11: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m          Type("Post"))[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:44:7: not found: value addVertex[0m
+[0m[[0m[31merror[0m] [0m[0m      addVertex(timeStamp, parentPostID,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:45:9: not found: value Properties[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:46:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("name",parentPost),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:47:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("author",parentPostAuthor)),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:49:9: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m        Type("Post"))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:50:7: not found: value addEdge[0m
+[0m[[0m[31merror[0m] [0m[0m      addEdge(timeStamp,postID,parentPostID,Type("Post answer"))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:50:45: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m      addEdge(timeStamp,postID,parentPostID,Type("Post answer"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:56:7: not found: value addVertex[0m
+[0m[[0m[31merror[0m] [0m[0m      addVertex(timeStamp, postID,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:57:9: not found: value Properties[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",post),[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:57:20: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",post),[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:58:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("author",postAuthor),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:59:11: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m          ImmutableProperty("original","true")),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderPost.scala:60:11: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m          Type("Post"))[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:3:21: object core is not a member of package com.raphtory[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.actors.Router.GraphBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:4:21: object core is not a member of package com.raphtory[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.raphtory.core.model.communication._[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:6:37: not found: type GraphBuilder[0m
+[0m[[0m[31merror[0m] [0m[0mclass GABRCGraphBuilderUser extends GraphBuilder[String]{[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:14:18: not found: value assignID[0m
+[0m[[0m[31merror[0m] [0m[0m    val userID = assignID(user)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:17:24: not found: value assignID[0m
+[0m[[0m[31merror[0m] [0m[0m    val parentUserID = assignID(parentUser)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:35:7: not found: value addVertex[0m
+[0m[[0m[31merror[0m] [0m[0m      addVertex(timeStamp, userID,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:36:9: not found: value Properties[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",user)),Type("Character"))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:36:20: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",user)),Type("Character"))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:36:52: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",user)),Type("Character"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:41:7: not found: value addVertex[0m
+[0m[[0m[31merror[0m] [0m[0m      addVertex(timeStamp, parentUserID,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:42:9: not found: value Properties[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",parentUser)),Type("Character"))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:42:20: not found: value ImmutableProperty[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",parentUser)),Type("Character"))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:42:58: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m        Properties(ImmutableProperty("name",parentUser)),Type("Character"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:47:7: not found: value addEdge[0m
+[0m[[0m[31merror[0m] [0m[0m      addEdge(timeStamp,userID,parentUserID, Type("Character Co-occurence"))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCGraphBuilderUser.scala:47:46: not found: value Type[0m
+[0m[[0m[31merror[0m] [0m[0m      addEdge(timeStamp,userID,parentUserID, Type("Character Co-occurence"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/rodrigo/Examples-main/src/main/scala/myExamples/gabrc/GABRCSpout.scala:19:7: not found: value dataSourceComplete[0m
+[0m[[0m[31merror[0m] [0m[0m      dataSourceComplete()[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m54 errors found[0m
