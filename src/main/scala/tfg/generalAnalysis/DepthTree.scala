@@ -88,7 +88,7 @@ class DepthTree(args:Array[String]) extends Analyser(args) {
 
     //    print("           "+ grouped.map(x=>x.size) + "            ")
 
-    val text = s"""{"time":$timestamp,"probando":$present,"OTRA COSA":${grouped.size}}"""
+    val text = s"""{"time":$timestamp,"distrib":$present,"tamaño":${grouped.size}},"""
 //    ,"OTRA COSA":${grouped.size}
     writeLines(output_file, text, "{\"views\":[")
     print(text)

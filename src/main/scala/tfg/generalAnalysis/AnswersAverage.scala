@@ -47,7 +47,7 @@ class AnswersAverage(args:Array[String]) extends Analyser(args) {
       }
 
     val text =
-      s"""{"time":$timeStamp, "originals":$originals, "answers":$answers, "average-thread": $average}""".stripMargin
+      s"""{"time":$timeStamp, "originals":$originals, "answers":$answers, "average-thread": $average},""".stripMargin
 
     writeLines(my_output_file, text, "{\"views\":[")
     println(text)

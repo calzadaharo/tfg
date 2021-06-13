@@ -50,7 +50,7 @@ class ConnectedComponents(args:Array[String]) extends Analyser(args){
     val er = extractData(results)
     var output_file = System.getenv().getOrDefault("OUTPUT_FILE","ConnectedComponents.json").trim
     val text = s"""{"time":$timestamp,"windowsize":$windowSize,"top5":[${er.top5.mkString(",")}],"total":${er.total},"totalIslands":${er.totalIslands},"proportion":${er.proportion},"clustersGT2":${er.totalGT2},"viewTime":$viewCompleteTime},"""
-//    writeLines(output_file, text, "[")
+    writeLines(output_file, text, "[")
     println(text)
     publishData(text)
 

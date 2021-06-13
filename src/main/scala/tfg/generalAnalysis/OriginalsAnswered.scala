@@ -56,7 +56,7 @@ class OriginalsAnswered(args:Array[String]) extends Analyser(args) {
 
     val text =
       s"""{"time":$timeStamp, "originals":$originals, "no-answered":$noAnswered, "percentage-isolated":$percentage,
-         |"percentage-answered":$percentageBis}""".stripMargin
+         |"percentage-answered":$percentageBis},""".stripMargin
 
     writeLines(my_output_file, text, "{\"views\":[")
     println(text)

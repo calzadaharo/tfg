@@ -61,9 +61,9 @@ class DepthDistribution(args:Array[String]) extends Analyser(args) {
       .mkString("[",",","]")
 
     val text =
-      s"""{"time":$timeStamp, "threads":$threads}""".stripMargin
+      s"""{"time":$timeStamp, "threads":$threads},""".stripMargin
 
-//    writeLines(my_output_file, text, "{\"views\":[")
+    writeLines(my_output_file, text, "{\"views\":[")
     println(text)
   }
 }

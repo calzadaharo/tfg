@@ -41,7 +41,7 @@ object GADeployment extends App {
 //  rg.viewQuery(Distributions(),timestamp=total_end,arguments)
 
   /**********CONNECTED COMPONENTS**********/
-  rg.viewQuery(ConnectedComponents(),timestamp=mini_end,arguments)
+//  rg.viewQuery(ConnectedComponents(),timestamp=mini_end,arguments)
 //  rg.viewQuery(ConnectedComponents(),timestamp=total_end,arguments)
 
   /**********DEPTH DISTRIBUTION**********/
@@ -55,30 +55,5 @@ object GADeployment extends App {
   /**********AUTHORS TREE**********/
 //  rg.viewQuery(AuthorsTree(),timestamp=mini_end,arguments)
 //  rg.viewQuery(AuthorsTree(),timestamp=total_end,arguments)
-
-
-
-  //rg.rangeQuery(SixDegreesOfGandalf(3),start = 1,end = 32674,increment = 100,arguments)
-
-  //  rg.rangeQuery(DegreeBasic(),start = inicio,end = inicio+day+day,increment = 3600,arguments)
-  //  rg.rangeQuery(DegreeRanking(),start = inicio,end = time_relation,increment = 3600,window=3600,arguments)
-  //rg.rangeQuery(ConnectedComponents(),start = 1,end = 32674,increment = 100,windowBatch=Array(100,50,10),arguments)
-
-//    rg.viewQuery(DegreeBasic(),timestamp=mini_end,arguments)
-  //  rg.viewQuery(DegreeBasic(),timestamp = time_relation,window=day,arguments)
-//  rg.viewQuery(DegreeBasic(),timestamp = 24424668,windowBatch=Array(100,50,10),arguments)
-
-  //  rg.viewQuery(ThreadCreators(),timestamp = final_mini,arguments)
-  //  rg.rangeQuery(ThreadAverage(),start = inicio,end = time_relation,increment=hora,window=hora,arguments)
-
-  //    rg.viewQuery(Distributions(),timestamp=time,arguments)
-//  rg.viewQuery(Distributions(),timestamp=time,arguments)
-
-
-  //  for (i <- 1 to numero_dias) {
-  ////    print(i + "  ")
-  //    rg.viewQuery(DegreeRanking(),timestamp = inicio+i*3600*24,window=3600*24,arguments)
-  //    Thread.sleep(20)
-  //  }
 
 }

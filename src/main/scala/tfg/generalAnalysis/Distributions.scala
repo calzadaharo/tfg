@@ -67,10 +67,10 @@ class Distributions(args:Array[String]) extends Analyser(args){
     val weightDistArr = er.weightDist
     val edgeDistArr = er.weightDist
 
-    val text = s"""{"time":$timestamp,"windowsize":$windowSize,"answerDistribution":$degDistArr,"weightDist":$weightDistArr, "edgeDist":$edgeDistArr,"viewTime":$viewCompleteTime}"""
+    val text = s"""{"time":$timestamp,"windowsize":$windowSize,"answerDistribution":$degDistArr,"weightDist":$weightDistArr, "edgeDist":$edgeDistArr,"viewTime":$viewCompleteTime},"""
     println(text)
     publishData(text)
-//    writeLines(output_file, text, "{\"views\":[")
+    writeLines(output_file, text, "{\"views\":[")
   }
 
   def extractData(results: ArrayBuffer[Any]): extractedData = {

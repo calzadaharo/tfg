@@ -57,8 +57,7 @@ class AuthorsTree(args:Array[String]) extends Analyser(args) {
       .mkString("[",",","]")
 
     val text =
-      s"""{"time":$timeStamp,"total":$definitive,"count":${grouped.size}}
-         |]}""".stripMargin
+      s"""{"time":$timeStamp,"total":$definitive,"count":${grouped.size}},""".stripMargin
 
     writeLines(output_file, text, "{\"views\":[")
     print(text)
