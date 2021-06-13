@@ -55,7 +55,7 @@ class Distributions(args:Array[String]) extends Analyser(args){
     val text = s"""{"time":$timeStamp,"degDist":$degDistArr,"answerDistribution":$weightDistArr, "edgeDist":$edgeDistArr,"viewTime":$viewCompleteTime}"""
     println(text)
     publishData(text)
-//    writeLines(output_file, text, "{\"views\":[")
+    writeLines(output_file, text, "{\"views\":[")
   }
 
   override def processWindowResults(results: ArrayBuffer[Any], timestamp: Long, windowSize: Long, viewCompleteTime: Long): Unit = {
