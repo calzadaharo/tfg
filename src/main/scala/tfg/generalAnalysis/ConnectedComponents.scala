@@ -41,7 +41,7 @@ class ConnectedComponents(args:Array[String]) extends Analyser(args){
     var output_file = System.getenv().getOrDefault("OUTPUT_FILE","ConnectedComponents.json").trim
 
     println(text)
-//    writeLines(output_file, text, "{\"views\":[")
+    writeLines(output_file, text, "{\"views\":[")
 
     publishData(text)
   }
