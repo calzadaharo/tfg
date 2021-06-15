@@ -25,7 +25,7 @@ class DegreeOriginals(args:Array[String]) extends Analyser(args) {
 
     val noOriginals = vertices.filter(x => x._3 == "false").size
     val originals = vertices.filter(x => x._3 == "true").size
-    val noClassified = vertices.filter(x => x._3 == "")
+    val noClassified = vertices.filter(x => x._3 == "").size
 //      .map{vertex =>
 //        (vertex.ID) //Long
 //      }
