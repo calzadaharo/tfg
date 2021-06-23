@@ -8,12 +8,12 @@ class GASpout extends Spout[String] {
   val fileQueue = mutable.Queue[String]()
 
   override def setupDataSource(): Unit = {
-        fileQueue++=
-          scala.io.Source.fromFile("src/main/scala/tfg/datasets/miniGab.csv")
-            .getLines
 //        fileQueue++=
-//          scala.io.Source.fromFile("src/main/scala/tfg/datasets/gabNetwork500.csv")
+//          scala.io.Source.fromFile("src/main/scala/tfg/datasets/miniGab.csv")
 //            .getLines
+        fileQueue++=
+          scala.io.Source.fromFile("src/main/scala/tfg/datasets/gabNetwork500.csv")
+            .getLines
   }
 
   override def generateData(): Option[String] = {

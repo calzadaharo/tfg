@@ -3,3 +3,7 @@
  "original-per-answer": 1.5902118334550768, "percentage-originals": 61.39311900733221, "percentage-answers":38.6068809926678}
 {"time":24511068, "originals":306957, "answers":193022, "don't-know": 9924, "relation": 0.628824232710119,
  "original-per-answer": 1.5902695029582121, "percentage-originals": 61.39397854709898, "percentage-answers":38.606021452901025},
+{"time":19257559, "originals":21, "answers":5, "don't-know": 0, "relation": 0.23809523809523808,
+ "original-per-answer": 4.2, "percentage-originals": 80.76923076923077, "percentage-answers":19.230769230769234},
+{"time":19257559, "originals":21, "answers":5, "don't-know": 0, "relation": 0.23809523809523808,
+ "original-per-answer": 4.2, "percentage-originals": 80.76923076923077, "percentage-answers":19.230769230769234},

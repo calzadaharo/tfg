@@ -26,7 +26,7 @@ object GADeployment extends App {
 //  rg.viewQuery(DegreeOriginals(),timestamp=mini_end,arguments)
 //  rg.viewQuery(DegreeOriginals(),timestamp=total_end,arguments)
 //  rg.rangeQuery(DegreeOriginals(),start=mini_init+day,end=mini_end,increment=day,window=day,arguments)
-//  rg.rangeQuery(DegreeOriginals(),start=total_init+day,end=total_end,increment=day,window=day,arguments)
+  rg.rangeQuery(DegreeOriginals(),start=total_init+day,end=total_end,increment=day,window=day,arguments)
 
   /**********ORIGINALS ANSWERED**********/
 //  rg.viewQuery(OriginalsAnswered(),timestamp=mini_end,arguments)
